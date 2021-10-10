@@ -34,6 +34,7 @@ void setup() {
 void loop() {
 	delay(3000);
 	json_str = "{ \"device\" : \""+String(gid)+"\", \"cmd\" : \"SAY\", \"text\": \"Woohoo!\" }";
+    ddev.send(json_str);
 }
 ```
 
