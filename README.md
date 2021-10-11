@@ -58,5 +58,5 @@ There are three tasks for this lab.
 ## FAQ / Common Issues
 
 * When updating the server that the dotDevice connects to (``const char* server=...``) make sure that the ports at the end are ``1234``. Port ``4000`` is only used for viewing the lab, not for sending the dotDevice commands. 
-
+* I live in halls/can only access EduRoam. Is is possible to use your phone as a WiFi hotspot to connect your TinyPico to the webserver? If you can't get that to work then contact Shane and we'll try and set something up.
 
