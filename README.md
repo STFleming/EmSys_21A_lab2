@@ -15,6 +15,8 @@ All the dot devices live on a virtual lab server, to view this server please cli
 ## Sending commands to your dotDevice
 
 In your GitHub Lab directory you should all have an example in ``lab2/example/example.ino``. 
+There is also an example in this repository [[here](src/example)].
+
 ```C
 #include "dotDevice.h"
 
@@ -34,6 +36,7 @@ void setup() {
 void loop() {
 	delay(3000);
 	json_str = "{ \"device\" : \""+String(gid)+"\", \"cmd\" : \"SAY\", \"text\": \"Woohoo!\" }";
+    ddev.send(json_str);
 }
 ```
 
