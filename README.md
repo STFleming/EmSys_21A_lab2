@@ -52,3 +52,8 @@ There are three tasks for this lab.
 2. Create a sketch in your GitHub logbook repository, ``lab2/task2/task2.ino``, that uses the dotDevices command memory to perform a similar sequence to what you programmed in task1. 
 3. Comment in the Lab2 README on the tradeoffs of using the dotDevices command memory against sending individual commands from the TinyPico.
 
+## FAQ / Common Issues
+
+* When updating the server that the dotDevice connects to (``const char* server=...``) make sure that the ports at the end are ``1234``. Port ``4000`` is only used for viewing the lab, not for sending the dotDevice commands. 
+
+
